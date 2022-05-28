@@ -19,7 +19,7 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse>
               <Nav className="me-auto">
-                <Nav.Link id="about" as={NavLink} to="/" className="navBttn">About</Nav.Link>
+                <Nav.Link id="about" as={NavLink} to="/" >About</Nav.Link>
                 <Nav.Link id="projects" as={NavLink} to="projects" className="navBttn">Projects</Nav.Link>
                 <Nav.Link id="contact" as={NavLink} to="contact" className="navBttn">Contact</Nav.Link>
               </Nav>

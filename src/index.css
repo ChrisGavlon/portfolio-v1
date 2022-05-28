@@ -4,3 +4,129 @@ body {
   background-position: center center center;
   background-size: cover;
 }
+
+/*----------------Navbar-----------------------------------------------------------------------------------------------*/
+
+#about:hover{
+  color:red;
+}
+
+#projects:hover{
+  color: red;
+}
+
+#contact:hover{
+  color: red;
+}
+
+
+/*----------------Projects---------------------------------------------------------------------------------------------*/
+
+.my-projects{
+  color: whitesmoke;
+  margin-left: 11%;
+}
+
+.project-card{
+  text-decoration: none;
+  margin: 10px;
+  width: 310px;
+  min-height: 550px;
+  max-height: 800px;
+  padding: 5px;
+  color: whitesmoke;
+  background: #242529;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.12);
+  transition: transform .2s;
+}
+.project-card:hover{
+  background-color: #1f2121;
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+.project-img{
+  display: block;
+  width: 300px;
+  min-height: 300px;
+  max-height: 400px;
+  padding-bottom: 10px;
+}
+.project-title{
+  color: red;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.project-desc{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 350;
+}
+
+.project-list{
+  position: absolute;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  top: 140px;
+  left: 10%;
+  right: 10%;
+}
+
+.project-link{
+  text-decoration: none;
+  color: whitesmoke;
+}
+.project-link:hover{
+  color: red;
+  cursor: pointer;
+}
+
+/*-------------------Contacts------------------------------------------------------------------------*/
+
+.iconSubtitle {
+  color: white;
+  font-size: 110%;
+  text-decoration: none;
+}
+
+.iconSubtitle:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.contactLink {
+  text-decoration: none;
+}
+
+#linkedInIcon {
+  color: white;
+  font-size: 500%;
+}
+
+#linkedInIcon:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#githubIcon {
+  color: white;
+  font-size: 500%;
+}
+
+#githubIcon:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#emailIcon {
+  color: white;
+  font-size: 500%;
+}
+
+#emailIcon:hover {
+  color: red;
+  cursor: pointer;
+}
