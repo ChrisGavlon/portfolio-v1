@@ -21,7 +21,7 @@ function Contact(){
     return (
         <>
         <Container>
-            <Row>
+            <Row className="icon-row">
                 <Col xs="3">
                     <a target="_blank" href="https://www.linkedin.com/in/christopher-aguirre-21bb0b221/" className="contactLink">
                         <FontAwesomeIcon icon={faLinkedin} id="linkedInIcon" />

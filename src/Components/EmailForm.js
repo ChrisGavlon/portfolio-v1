@@ -7,14 +7,14 @@ import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.css';
 
 
-function EmailForm(setAlertState){
+function EmailForm({setAlertState}){
 
     const form = useRef();
 
     function sendEmail(e){
         e.preventDefault();
 
-        emailjs.sendForm('gmail', 'template_f0dssmb', form.current, 'L7Q3JsY5XEFl2-k3o')
+        emailjs.sendForm('service_ux4digk', 'template_f0dssmb', form.current, 'L7Q3JsY5XEFl2-k3o')
           .then((result) => {
               console.log(result.text);
           }, (error) => {

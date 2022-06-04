@@ -24,7 +24,7 @@ body {
 
 .my-projects{
   color: whitesmoke;
-  margin-left: 11%;
+  margin-left: 17%;
 }
 
 .project-card{
@@ -66,12 +66,12 @@ body {
 }
 
 .project-list{
-  position: absolute;
+  position: relative;
   flex-direction: row;
   display: flex;
   flex-wrap: wrap;
-  top: 140px;
-  left: 10%;
+  top: 10px;
+  left: 15%;
   right: 10%;
 }
 
@@ -85,6 +85,11 @@ body {
 }
 
 /*-------------------Contacts------------------------------------------------------------------------*/
+
+.icon-row{
+  margin-top: 20%;
+  margin-left: 20%;
+}
 
 .iconSubtitle {
   color: white;
@@ -129,4 +134,22 @@ body {
 #emailIcon:hover {
   color: red;
   cursor: pointer;
+}
+
+/*----------------About----------------------------------------------------------------------------------*/
+
+#about-head{
+  color: whitesmoke;
+  margin-left: 10%;
+  margin-right: 25%;
+}
+
+.about-para{
+  color: whitesmoke;
+  margin-left: 10%;
+  margin-right: 20%;
+  padding-bottom: 25px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.4;
 }
